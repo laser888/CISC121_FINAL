@@ -1,10 +1,11 @@
-# Bubble Sort
+## Bubble Sort
 # Why I Chose Bubble Sort
 I chose bubble sort because it was the easiest sorting algorithm for me to understand, it clicked right away. I also have a creative idea for how to visualize the comparisons and swaps.
 ## Demo video/gif/screenshot of test
 
-## Problem Breakdown & Computational Thinking (You can add a flowchart and write the four pillars of computational thinking briefly in bullets)
 
+
+## Problem Breakdown & Computational Thinking (You can add a flowchart and write the four pillars of computational thinking briefly in bullets)
 # Decomposition:
 Bubble Sort works by repeatedly scanning the list from left to right and comparing pairs of adjacent values. If a pair is out of order, the algorithm swaps the two elements. After each full pass, the largest remaining value moves toward the end of the list. This cotinues until the algorithm completes a full pass without performing any swaps. 
 
@@ -22,9 +23,29 @@ The values will be stored as a list of integers.
 
 
 
-## Steps to Run
+## Steps to Run:
+1. Use the default list, or enter a comma separated list of integers into the input box, or click random to generate a list automatically.
+
+2. Click Load/Reset to load the values into the visualizer
+
+3. Press play to start the Bubble Sort animation
+
+4. Adjust the playback speed slider while the algorithm is running if you want it to go faster or slower.
+
+5. Press pause at any time to stop the animation.
 
 ## Hugging Face Link
 
+
 ## Author & Acknowledgment
-https://gemini.google.com/share/9b58237c460c 
+Author: Denis Rodin
+
+Note: At first, I wanted to build a much more complex animation system with water and bubble effects. I explored doing this with Gradio but found it insufficient, so I started learning Pillow. Eventually, I realized my original idea was too ambitious, so I simplified the project.
+
+Acknowledgements:
+While developing this project i used a few tools to help me polish and debug my code:
+
+1. I used Google's Gemini to help identify and fix several bugs in my draft, especially issues involving the animation loop, frame timing, and how the UI updated between steps. It helped me trouble shoot places where the code wasn't behaving in the way I expected.
+Chat link:https://gemini.google.com/share/9b58237c460c 
+
+2. I also used VS Code's built in GitHub Copilot for small auto completions such as finishing comments or simple ilnes of code.

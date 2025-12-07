@@ -142,13 +142,14 @@ with gr.Blocks(title="Bubble Sort Visualizer") as demo:
     clear_btn.click(clear_input, outputs=input_box)
     random_btn.click(random_array, outputs=input_box)
 
-    # Play/pause button 
+    # Play/pause button (toggles animation
     toggle_btn.click(
         toggle_play,
         inputs=[toggle_btn, speed_slider],
         outputs=[toggle_btn, timer]
     )
 
+    # Timer fires repeatedly → calls advance() each tick
     timer.tick(
         advance,
         inputs=[speed_slider],
