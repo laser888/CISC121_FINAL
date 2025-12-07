@@ -12,6 +12,7 @@ Bubble Sort works by repeatedly scanning the list from left to right and compari
 # Pattern Recognition:
 During every pass, the algorithm performs the same pattern: compare two neighbouring elements, check whether they need to be swapped, then move one step to the right. Each pass reduces the number of unsorted elements.
 
+
 # Abstraction:
 To visualize the algorithm, only the essential details need to be shown: the values themselves, which two elements are being compared ata given moment, and when a swap takes place. Details such as loop counters, index variables, and the internal mechanics of each pass can be left out because they do not help the user understand the core behaviour of the algorithm.
 
