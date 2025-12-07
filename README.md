@@ -50,6 +50,6 @@ Acknowledgements:
 While developing this project i used a few tools to help me polish and debug my code:
 
 1. I used Google's Gemini to help identify and fix several bugs in my draft, especially issues involving the animation loop, frame timing, and how the UI updated between steps. It helped me trouble shoot places where the code wasn't behaving in the way I expected.
-Chat link:https://gemini.google.com/share/9b58237c460c 
+Chat link: https://gemini.google.com/share/9b58237c460c 
 
 2. I also used VS Code's built in GitHub Copilot for small auto completions such as finishing comments or simple ilnes of code.
