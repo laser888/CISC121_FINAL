@@ -25,7 +25,7 @@ The user will enter a list of integers separated by commas into a text box. The 
 # Data Structure:
 The values will be stored as a list of integers.
 
-<img width="440" height="1831" alt="BubbleSort drawio" src="https://github.com/user-attachments/assets/16e3e8f2-51ee-4eb9-8f70-fa32e12e4396" />
+<img width="440" height="1951" alt="BubbleSort drawio" src="https://github.com/user-attachments/assets/1b5e538a-76e1-471d-89a6-a25b8764e66f" />
 
 ## Steps to Run:
 1. Use the default list, or enter a comma separated list of integers into the input box, or click random to generate a list automatically.
