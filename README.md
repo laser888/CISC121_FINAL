@@ -12,7 +12,6 @@ Bubble Sort works by repeatedly scanning the list from left to right and compari
 # Pattern Recognition:
 During every pass, the algorithm performs the same pattern: compare two neighbouring elements, check whether they need to be swapped, then move one step to the right. Each pass reduces the number of unsorted elements.
 
-
 # Abstraction:
 To visualize the algorithm, only the essential details need to be shown: the values themselves, which two elements are being compared ata given moment, and when a swap takes place. Details such as loop counters, index variables, and the internal mechanics of each pass can be left out because they do not help the user understand the core behaviour of the algorithm.
 
@@ -22,7 +21,7 @@ The user will enter a list of integers separated by commas into a text box. The 
 # Data Structure:
 The values will be stored as a list of integers.
 
-
+<img width="440" height="1831" alt="BubbleSort drawio" src="https://github.com/user-attachments/assets/16e3e8f2-51ee-4eb9-8f70-fa32e12e4396" />
 
 ## Steps to Run:
 1. Use the default list, or enter a comma separated list of integers into the input box, or click random to generate a list automatically.
