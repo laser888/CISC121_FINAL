@@ -3,7 +3,7 @@
 I chose bubble sort because it was the easiest sorting algorithm for me to understand, it clicked right away. I also have a creative idea for how to visualize the comparisons and swaps.
 ## Demo video/gif/screenshot of test
 
-
+https://github.com/user-attachments/assets/48cb700b-2e7e-4539-ae1d-d77f0d6ee2bc
 
 ## Problem Breakdown & Computational Thinking (You can add a flowchart and write the four pillars of computational thinking briefly in bullets)
 # Decomposition:
